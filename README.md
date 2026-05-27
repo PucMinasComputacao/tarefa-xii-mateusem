@@ -1,21 +1,24 @@
-# Trabalho Prático - Semana 11
+#SanchoFilmes
 
-Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detalhes, conforme o  projeto escolhido. Imagine que a página principal (home-page) mostre um visão dos vários itens que existem no seu site. Ao clicar em um item, você é direcionado pra a página de detalhes. A página de detalhe vai mostrar todas as informações sobre o item do seu projeto. seja esse item uma notícia, filme, receita, lugar turístico ou evento.
+nome: Mateus Evaristo Melo
+matrícula: 915518
 
-Vamos dar um exemplo, se você escolheu o Portal de notícias locais, então sua página principal (home-page) mostra todas as notícias. Ao clicar no titulo ou na imagem de uma notícia específica, você é direcionado para a página de detalhes que trará o texto completo da notícia, o autor e outros detalhes adicionais sobre aquela notícia. O mesmo vai acontecer para todos os demais tipos de projetos. 
+## Sobre o projeto
 
-IMPORTANTE: Assim como informado anteriormente, capriche na etapa pois você vai precisar dessa parte para as próximas semanas. 
+O projeto realiza requisições assíncronas utilizando Fetch API para buscar informações reais de filmes e renderizar os resultados dinamicamente na página em formato de cards.
 
-## Informações Gerais
+## Endpoint Utilizado
 
-- Nome:
-- Matricula:
+endpoint principal:
 
-## Prints do trabalho
+/movie/popular
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+Endpoint de pesquisa:
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+/search/movie
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+##Prints
 
+![Tela Inicial](public/img/home.png)
+
+![Pesquisa de Filmes](public/img/search.png)
